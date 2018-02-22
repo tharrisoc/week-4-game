@@ -75,6 +75,7 @@ function initVariables() {
   }
     
   totalScore = 0;
+  $('#random-number').html(targetNum.toString());
 }
 
 // generate a random integer between min and max, inclusive
