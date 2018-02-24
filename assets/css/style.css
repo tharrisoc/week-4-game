@@ -88,8 +88,35 @@
 }
 
 .crystal-btn {
-  padding-left: 0px;
-  padding-right : 5px;
+  border : none;
+  margin-right : 5px;
+  width: 87px;
+  height: 85px;
+  opacity : 1;
+}
+
+#crystal1 {
+  background : url( "../images/greendiamondSMALL.png" );
+  background-repeat : no-repeat;
+  background-position : center;
+  color : #65952E;
+}
+
+#crystal2 {
+  background : url( "../images/purplediamondSMALL.png" );
+  color: #650773;
+}
+
+#crystal3 {
+  background : url( "../images/yellowsphereSMALL.png" );
+  color : #EB9843;
+}
+
+#crystal4 {
+  background : url( "../images/skybluediamondSMALL.png" );
+  background-repeat : no-repeat;
+  background-position : center;
+  color : #6ECBEF;
 }
 
 #total-score-message-card, #total-score-display-card {

@@ -10,3 +10,10 @@ than clicking on the crystal button images themselves.
 
 I will attempt to fix this before checking in a final
 version.
+
+February 23, 2018 10:00PM
+The bug regarding the display of radio buttons described
+above has been fixed. The game now displays just the crystal
+images, and those images are treated as buttons which can
+be clicked on directly.
+

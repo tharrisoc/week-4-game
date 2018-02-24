@@ -12,7 +12,7 @@ function readyFunc() {
   initVariables();
 
   // execute the following code whenever a button is clicked
-  $('#crystal-group input:radio').click(function() {
+  $('.crystal-btn').click(function() {
     // showCurrentStatus($(this).val());  // DEBUG
     switch ( $(this).val() ) {
       case '1' :
@@ -32,7 +32,7 @@ function readyFunc() {
         break;
 
       default :
-        alert("No value seen"); // should never get hereß
+        alert("No value seen"); // should never get here
         return;
     }
       
